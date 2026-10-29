@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#4c111d">
+<meta name="description" content="A royal wedding invitation celebrating Pankaj and Dipika, 10–11 December 2026, Dehradun.">
+<title>Pankaj & Dipika — Wedding Invitation</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@400;500;600&display=swap');
+:root{--wine:#4c111d;--wine2:#711f30;--gold:#cba765;--pale:#fff8eb;--paper:#f6ead4;--ink:#48232a;--muted:#876a62}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:68px}body{margin:0;background:var(--pale);color:var(--ink);font-family:'Cormorant Garamond',Georgia,serif}body.lock{overflow:hidden}a{color:inherit}.gold{color:var(--gold)}.serif{font-family:'Cormorant Garamond',serif}.script{font-family:'Great Vibes',cursive}
+#intro{position:fixed;inset:0;z-index:1000;background:radial-gradient(ellipse at center,#762738 0,#4c111d 68%,#290810 100%);color:#fcebd0;display:grid;place-items:center;text-align:center;padding:24px;transition:opacity .9s ease,visibility .9s ease}
+#intro.hide{opacity:0;visibility:hidden;pointer-events:none}.intro-frame{width:min(560px,100%);padding:42px 22px;border:1px solid var(--gold);outline:1px solid #cba76566;outline-offset:8px;position:relative}.intro-frame:before,.intro-frame:after{content:'❧';position:absolute;color:var(--gold);font-size:38px}.intro-frame:before{top:7px;left:12px}.intro-frame:after{bottom:7px;right:12px;transform:rotate(180deg)}.intro-kicker{font:10px Montserrat,sans-serif;letter-spacing:3px;text-transform:uppercase;color:#e5c990}.intro-names{font-size:clamp(55px,13vw,85px);line-height:.9;margin:28px 0 8px}.intro-amp{font:italic 30px 'Cormorant Garamond',serif;color:var(--gold);margin:12px}.intro-date{font:11px Montserrat,sans-serif;letter-spacing:2px;margin:25px 0;color:#f3dcb0}.btn{display:inline-flex;justify-content:center;align-items:center;gap:9px;padding:13px 23px;border:1px solid var(--gold);background:var(--wine);color:#fff5e5;text-decoration:none;font:10px Montserrat,sans-serif;letter-spacing:1.6px;text-transform:uppercase;cursor:pointer;transition:transform .2s,background .2s}.btn:hover{transform:translateY(-2px);background:var(--wine2)}.btn.light{background:transparent;color:var(--wine)}.btn.goldbtn{background:var(--gold);color:#351018;border-color:var(--gold)}
+.topbar{height:5px;background:linear-gradient(90deg,var(--wine),var(--gold),var(--wine))}nav{position:sticky;top:0;z-index:20;background:#fff8ebed;backdrop-filter:blur(12px);border-bottom:1px solid #e8d4ad;display:flex;align-items:center;justify-content:center;gap:clamp(10px,3vw,28px);padding:15px 10px}nav a{text-decoration:none;font:9px Montserrat,sans-serif;letter-spacing:1.3px;text-transform:uppercase;color:var(--wine)}nav a:hover{color:#a87932}
+.hero{min-height:92vh;display:grid;place-items:center;text-align:center;padding:70px 20px;position:relative;overflow:hidden;background:radial-gradient(ellipse at center,#fffdf7 0,#fff5e5 58%,#ead4b0 100%)}.hero:before,.hero:after{content:'❦';position:absolute;font-size:clamp(130px,24vw,260px);color:#b58a4b;opacity:.16;line-height:1}.hero:before{left:-25px;top:-15px;transform:rotate(-35deg)}.hero:after{right:-25px;bottom:-35px;transform:rotate(145deg)}.hero-card{position:relative;z-index:1;max-width:730px;width:100%;padding:clamp(30px,6vw,65px) 18px;border:1px solid var(--gold);outline:1px solid #cba76580;outline-offset:8px;background:#fffaf0a8}.eyebrow{font:10px Montserrat,sans-serif;letter-spacing:3px;text-transform:uppercase;color:#9b7439}.monogram{margin:22px auto;color:var(--gold);font-size:25px}.hero-names{font-size:clamp(58px,12vw,100px);line-height:.8;color:var(--wine);margin:15px 0;font-weight:500}.hero-names .and{display:block;font:italic 34px 'Cormorant Garamond',serif;color:var(--gold);line-height:1.4}.hero-sub{font-size:clamp(20px,4vw,28px);font-style:italic;color:#78564d;margin:24px 0}.date-pill{display:inline-block;padding:13px 17px;margin:8px 0 20px;border-top:1px solid var(--gold);border-bottom:1px solid var(--gold);font:10px Montserrat,sans-serif;letter-spacing:2px;color:var(--wine)}.hero-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:8px}
+section{padding:78px 20px;text-align:center}.wrap{max-width:900px;margin:auto}.kicker{font:10px Montserrat,sans-serif;text-transform:uppercase;letter-spacing:3px;color:#a17a3e}.heading{font-size:clamp(38px,7vw,58px);font-weight:500;color:var(--wine);margin:12px 0 18px;line-height:1}.flourish{color:var(--gold);font-size:27px;margin:18px}.copy{max-width:680px;margin:0 auto;line-height:1.75;font-size:21px;color:#735851}.dark{background:linear-gradient(135deg,#3d0d17,#6d1d2d);color:#fff3df}.dark .heading{color:#fff3df}.dark .copy{color:#f0dcc8}.dark .kicker{color:#e1c18a}
+.countdown{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:30px auto 20px}.time{min-width:78px;padding:15px 12px;border:1px solid #d2b16e;background:#fff8ec}.time strong{display:block;font-size:34px;font-weight:500;color:var(--wine)}.time span{font:9px Montserrat,sans-serif;text-transform:uppercase;letter-spacing:1px;color:#876a62}
+.events{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:16px;margin-top:35px;text-align:left}.event{position:relative;padding:27px 23px;background:#fffaf1;border:1px solid #e0c79c;box-shadow:0 8px 24px #5a291008}.event:before{content:'';position:absolute;inset:5px;border:1px solid #e9d8b8;pointer-events:none}.event>*{position:relative}.event-icon{font-size:28px;color:var(--gold)}.event h3{font-size:30px;font-weight:500;color:var(--wine);margin:10px 0}.event p{font:12px/1.9 Montserrat,sans-serif;color:#7c625b}.event .label{font:9px Montserrat,sans-serif;text-transform:uppercase;letter-spacing:1.5px;color:#a17a3e}
+.gallery{background:#f1e2c9}.photos{display:grid;grid-template-columns:1.15fr 1fr;grid-template-rows:190px 190px;gap:12px;max-width:700px;margin:32px auto}.photo{display:grid;place-items:center;background:linear-gradient(135deg,#fff8eb,#e5c99b);border:1px dashed #b99354;color:#8b6a37;min-height:150px;overflow:hidden;position:relative}.photo:first-child{grid-row:span 2}.photo img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}.photo .placeholder{font:10px Montserrat,sans-serif;letter-spacing:1px;text-transform:uppercase;padding:15px}.photo .placeholder b{display:block;font-size:32px;font-weight:400;margin-bottom:8px}
+.venue-card{max-width:650px;margin:30px auto 0;padding:32px 20px;border:1px solid var(--gold);outline:1px solid #cba76555;outline-offset:5px;background:#fffdf7}.venue-name{font-size:34px;color:var(--wine);margin:12px 0}.venue-card p{font:13px/1.9 Montserrat,sans-serif;color:#775e57}.venue-actions{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:18px}
+.rsvp-form{max-width:500px;margin:28px auto 0;text-align:left}.rsvp-form label{display:block;font:10px Montserrat,sans-serif;letter-spacing:1px;text-transform:uppercase;margin:12px 0 5px}.rsvp-form input,.rsvp-form select,.rsvp-form textarea{width:100%;padding:13px;border:1px solid #d6b779;background:#fffaf1;font:14px Montserrat,sans-serif;color:var(--ink)}.rsvp-form .btn{width:100%;margin-top:14px}.hint{font:10px/1.6 Montserrat,sans-serif;color:#f0d7ce;margin-top:12px}
+footer{padding:38px 15px;text-align:center;background:#260910;color:#e7c88e}footer .footnames{font-size:37px}footer small{display:block;margin-top:12px;color:#d9bfc0;font:9px Montserrat,sans-serif;letter-spacing:1px}
+#music{position:fixed;right:14px;bottom:14px;z-index:30;border-radius:30px;background:var(--wine);color:#fff4e5;border:1px solid var(--gold);padding:12px 15px;font:10px Montserrat,sans-serif;box-shadow:0 5px 20px #0002;cursor:pointer}
+@media(max-width:520px){nav{gap:11px;padding:13px 5px}nav a{font-size:8px;letter-spacing:.5px}.hero{min-height:86vh}.hero-card{outline-offset:4px}.photos{grid-template-columns:1fr;grid-template-rows:220px 170px 170px}.photo:first-child{grid-row:auto}.copy{font-size:19px}section{padding:62px 17px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body class="lock">
+<div id="intro" role="dialog" aria-label="Wedding invitation opening">
+  <div class="intro-frame">
+    <div class="intro-kicker">With the blessings of our families</div>
+    <div class="monogram">✦ P & D ✦</div>
+    <div class="intro-names script">Pankaj <span class="intro-amp">&</span> Dipika</div>
+    <div class="intro-date">10 · 11 DECEMBER 2026 &nbsp; | &nbsp; DEHRADUN</div>
+    <button class="btn goldbtn" id="openInvite">Open Your Invitation <span aria-hidden="true">♥</span></button>
+  </div>
+</div>
+<div class="topbar"></div>
+<nav aria-label="Wedding navigation">
+  <a href="#home">Invitation</a><a href="#story">Our Day</a><a href="#events">Functions</a><a href="#gallery">Gallery</a><a href="#venue">Venue</a><a href="#rsvp">RSVP</a>
+</nav>
+<header class="hero" id="home">
+  <div class="hero-card">
+    <div class="eyebrow">Together with their families</div>
+    <div class="monogram">✦ ❦ ✦</div>
+    <h1 class="hero-names">Pankaj <span class="and">&</span> Dipika</h1>
+    <p class="hero-sub">Invite you to celebrate the beginning of forever</p>
+    <div class="flourish">❧ ❦ ❧</div>
+    <div class="eyebrow">Wedding Celebration</div>
+    <div class="date-pill">THURSDAY · 10 DECEMBER 2026</div>
+    <div class="hero-actions"><a class="btn" href="#events">Explore the Celebration</a><a class="btn light" href="#venue">View Venue</a></div>
+  </div>
+</header>
+<section class="dark" id="story">
+  <div class="wrap">
+    <div class="kicker">A beautiful new chapter</div><h2 class="heading">Two Hearts, One Journey</h2><div class="flourish">✧ ❦ ✧</div>
+    <p class="copy">With the blessings of our families and the love of those dearest to us, we invite you to join us as we begin our journey together. Your presence, love and blessings will make these moments unforgettable.</p>
+    <div class="countdown" id="countdown" aria-live="polite">
+      <div class="time"><strong id="days">--</strong><span>Days</span></div><div class="time"><strong id="hours">--</strong><span>Hours</span></div><div class="time"><strong id="minutes">--</strong><span>Minutes</span></div><div class="time"><strong id="seconds">--</strong><span>Seconds</span></div>
+    </div><div class="kicker">Counting down to the wedding</div>
+  </div>
+</section>
+<section id="events">
+  <div class="wrap">
+    <div class="kicker">Save the dates</div><h2 class="heading">Wedding Festivities</h2><div class="flourish">❧</div>
+    <p class="copy">Two days filled with love, laughter, family and beautiful memories. Function timings will be added once confirmed.</p>
+    <div class="events">
+      <article class="event"><div class="event-icon">✿</div><div class="label">Colour · Blessings · Joy</div><h3>Haldi & Mehendi</h3><p><b>Date:</b> To be confirmed<br><b>Time:</b> To be confirmed<br><b>Venue:</b> To be confirmed</p></article>
+      <article class="event"><div class="event-icon">♫</div><div class="label">Music · Dance · Celebration</div><h3>Sangeet</h3><p><b>Date:</b> To be confirmed<br><b>Time:</b> To be confirmed<br><b>Venue:</b> To be confirmed</p></article>
+      <article class="event"><div class="event-icon">❦</div><div class="label">The Wedding Ceremony</div><h3>Pankaj Weds Dipika</h3><p><b>Date:</b> 10 December 2026<br><b>Time:</b> To be confirmed<br><b>Venue:</b> Mathura Wedding Point, Tunuwala</p></article>
+      <article class="event"><div class="event-icon">✧</div><div class="label">Dinner · Love · Blessings</div><h3>Reception</h3><p><b>Date:</b> 11 December 2026<br><b>Time:</b> To be confirmed<br><b>Venue:</b> Mathura Wedding Point, Tunuwala</p></article>
+    </div>
+  </div>
+</section>
+<section class="gallery" id="gallery">
+  <div class="wrap"><div class="kicker">Moments to treasure</div><h2 class="heading">Our Gallery</h2><div class="flourish">❧ ❦ ❧</div>
+    <p class="copy">A few favourite moments will live here. Couple photos can be added whenever they are ready.</p>
+    <div class="photos">
+      <div class="photo"><div class="placeholder"><b>♡</b>Couple Portrait</div></div>
+      <div class="photo"><div class="placeholder"><b>✧</b>Favourite Memory</div></div>
+      <div class="photo"><div class="placeholder"><b>❦</b>Pre-Wedding Moment</div></div>
+    </div>
+  </div>
+</section>
+<section id="venue">
+  <div class="wrap"><div class="kicker">We look forward to welcoming you</div><h2 class="heading">Venue & Directions</h2><div class="flourish">✦</div>
+    <div class="venue-card"><div class="kicker">Wedding & Reception Venue</div><h3 class="venue-name">Mathura Wedding Point</h3><p>Tunuwala, Dehradun, Uttarakhand 248008<br><b>Wedding:</b> 10 December 2026<br><b>Reception:</b> 11 December 2026<br><b>Timings:</b> To be confirmed</p>
+      <div class="venue-actions"><a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Mathura+Wedding+Point+Tunuwala+Dehradun+248008">Get Directions ↗</a><a class="btn light" href="#rsvp">RSVP</a></div>
+    </div>
+  </div>
+</section>
+<section class="dark" id="rsvp">
+  <div class="wrap"><div class="kicker">Your presence is our present</div><h2 class="heading">Kindly RSVP</h2><div class="flourish">❧</div>
+    <p class="copy">Please let the family know if you will be celebrating these special moments with us.</p>
+    <form class="rsvp-form" id="rsvpForm">
+      <label for="guestName">Your name</label><input id="guestName" name="guestName" required placeholder="Enter your full name">
+      <label for="attendance">Will you attend?</label><select id="attendance" name="attendance"><option value="Joyfully accepts">Joyfully accepts</option><option value="Regretfully declines">Regretfully declines</option></select>
+      <label for="guests">Number of guests</label><select id="guests" name="guests"><option>1</option><option>2</option><option>3</option><option>4</option><option>5+</option></select>
+      <label for="message">A message for the couple (optional)</label><textarea id="message" name="message" rows="3" placeholder="Send your love and wishes..."></textarea>
+      <button class="btn goldbtn" type="submit">Send RSVP on WhatsApp</button>
+      <p class="hint">The website owner must add the family's WhatsApp number in the code before RSVP messages can be sent.</p>
+    </form>
+  </div>
+</section>
+<footer><div class="footnames script">Pankaj & Dipika</div><div>Two families, one beautiful beginning.</div><small>WITH LOVE · DECEMBER 2026 · DEHRADUN</small></footer>
+<button id="music" type="button" aria-label="Toggle wedding music">♫ Music: Off</button>
+<audio id="audio" loop preload="none"></audio>
+<script>
+const intro=document.getElementById('intro');
+document.getElementById('openInvite').addEventListener('click',()=>{intro.classList.add('hide');document.body.classList.remove('lock');});
+const weddingDate=new Date('2026-12-10T18:00:00+05:30');
+function updateCountdown(){
+ const diff=weddingDate-new Date();
+ if(diff<=0){document.getElementById('countdown').innerHTML='<p class="copy">Today is the day! Wishing the couple a lifetime of happiness. ♥</p>';return}
+ const vals={days:Math.floor(diff/86400000),hours:Math.floor(diff/3600000)%24,minutes:Math.floor(diff/60000)%60,seconds:Math.floor(diff/1000)%60};
+ Object.keys(vals).forEach(k=>document.getElementById(k).textContent=String(vals[k]).padStart(2,'0'));
+}
+updateCountdown();setInterval(updateCountdown,1000);
+
+// Optional: place a licensed file named wedding-music.mp3 beside index.html.
+const audio=document.getElementById('audio');audio.src='wedding-music.mp3';
+const music=document.getElementById('music');
+music.addEventListener('click',async()=>{if(audio.paused){try{await audio.play();music.textContent='♫ Music: On'}catch(e){alert('To enable music, add a licensed MP3 named wedding-music.mp3 to the website folder.')}}else{audio.pause();music.textContent='♫ Music: Off'}});
+
+// Replace with the family's WhatsApp number including country code, digits only.
+const WHATSAPP_NUMBER='';
+document.getElementById('rsvpForm').addEventListener('submit',e=>{
+ e.preventDefault();
+ if(!WHATSAPP_NUMBER){alert('RSVP is ready, but the website owner must add the family WhatsApp number in index.html first.');return}
+ const f=new FormData(e.currentTarget);
+ const message=`Wedding RSVP — Pankaj & Dipika\nName: ${f.get('guestName')}\nAttendance: ${f.get('attendance')}\nGuests: ${f.get('guests')}\nMessage: ${f.get('message')||'—'}`;
+ window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`,'_blank','noopener');
+});
+</script>
+</body>
+</html>
